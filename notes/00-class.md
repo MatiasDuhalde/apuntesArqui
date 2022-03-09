@@ -277,3 +277,39 @@ Por las razones anteriores, el arquitecto debe vender:
 * Coordinar y co-existir con otros equipos
 * Asistir en las decisiones del proyecto
 * Asistir en las definiciones del proyecto
+
+
+# Funcionamiento de sistemas web sencillos
+
+## IP, TCP, DNS, HTTP
+
+* (Network) Internet Protocol
+* (Transport) TCP
+* (App) DNS
+* (App) HTTP
+* (Transport) TLS
+
+## IP
+
+* Permite identificar la ubicación en la red donde encontrar el objetivo con el cual me quiero comunicar.
+* Puede funcionar con BGP (Border Gateway Protocol) para comunicar grupos grandes  de redes entre sí.
+
+## TCP
+
+* Permite descomponer el mensaje en paquetes manejables por la red y los dispositivos que la conectan.
+* Incluye aspectos de seguridad (checksums) en su funcionamiento.
+* TCP asegura la entrega del mensaje al destinatario
+
+## DNS
+
+* Permite traducir un dominio (parte de una URL) a una dirección IP
+
+## HTTP
+
+* Permite organizar la información y los mensajes.
+* Corresponde a la estructura del mensaje que realmente se envía.
+
+## TLS/SSL
+
+* Asegura una comunicación segura (evita que terceros afecten la comunicación).
+
